@@ -1,0 +1,140 @@
+h1 {
+    color: grey;
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    margin: 0px auto;
+}
+
+#nav {
+    width: auto;
+    height: 70px;
+    /* font-size: 10px; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    height: auto;
+    float: left;
+    /* align-self: center; */
+}
+
+#menu {
+    text-align: right;
+    float: right;
+    flex-direction: row;
+    display: flex;
+}
+.menu-item{
+    padding-right: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+#banner {
+    width: auto;
+    height: 80px;
+    background-color: #073042;
+    font-size: 22px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-align: center;
+    /* line-height: 3.5; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#content {
+    width: auto;
+    height: auto;
+    /* font-size: 50px; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    color: black;
+    text-align: left;
+    /* font-size: 10px; */
+    /* align-self: center; */
+    /* background-color: aquamarine; */
+    flex: 1;
+    display: flex;
+}
+
+#content-left {
+    /* background-color:rgb(103, 17, 94); */
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    align-items: flex-end;
+}
+#content-wrapper{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#content-title {
+    font-size: 80px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+    font-weight: 600;
+   
+}
+#content-desc{
+    font-size: 23px;
+    margin-top: 24px;
+}
+#img {
+    height: auto;
+    float: right;
+}
+
+#content-right {
+    float: right;
+}
+
+#button {
+    background-color: #073042;
+    color: white;
+    width: fit-content;
+    padding: 16px 22px;
+    border-radius: 24px;
+    margin-top: 32px;
+    font-size: smaller;
+}
+
+/* Styles for google icons */
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* color: rgb(255, 255, 255); */
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
