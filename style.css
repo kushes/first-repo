@@ -11,8 +11,6 @@ body {
 #nav {
     width: auto;
     height: 70px;
-    /* font-size: 10px; */
-    /* font-family: Arial, Helvetica, sans-serif; */
     text-align: center;
     display: flex;
     align-items: center;
@@ -22,7 +20,6 @@ body {
 #logo {
     height: auto;
     float: left;
-    /* align-self: center; */
 }
 
 #menu {
@@ -31,19 +28,19 @@ body {
     flex-direction: row;
     display: flex;
 }
-.menu-item{
+
+.menu-item {
     padding-right: 24px;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
+
 #banner {
     width: auto;
     height: 80px;
     background-color: #073042;
     font-size: 22px;
-    /* font-family: Arial, Helvetica, sans-serif; */
     text-align: center;
-    /* line-height: 3.5; */
     color: white;
     display: flex;
     justify-content: center;
@@ -54,19 +51,13 @@ body {
 #content {
     width: auto;
     height: auto;
-    /* font-size: 50px; */
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     color: black;
     text-align: left;
-    /* font-size: 10px; */
-    /* align-self: center; */
-    /* background-color: aquamarine; */
     flex: 1;
     display: flex;
 }
 
 #content-left {
-    /* background-color:rgb(103, 17, 94); */
     float: left;
     display: flex;
     flex-direction: column;
@@ -74,7 +65,8 @@ body {
     flex: 1;
     align-items: flex-end;
 }
-#content-wrapper{
+
+#content-wrapper {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -86,12 +78,14 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1;
     font-weight: 600;
-   
+
 }
-#content-desc{
+
+#content-desc {
     font-size: 23px;
     margin-top: 24px;
 }
+
 #img {
     height: auto;
     float: right;
@@ -125,7 +119,6 @@ body {
     word-wrap: normal;
     white-space: nowrap;
     direction: ltr;
-    /* color: rgb(255, 255, 255); */
 
     /* Support for all WebKit browsers. */
     -webkit-font-smoothing: antialiased;
